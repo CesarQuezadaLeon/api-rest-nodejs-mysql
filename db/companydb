@@ -1,0 +1,11 @@
+create database companydb;
+
+use companydb;
+
+create table employee(
+id int not null auto_increment primary key,
+Nombre char(20),
+salary double
+);
+
+select * from employee
